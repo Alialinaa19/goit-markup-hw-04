@@ -132,8 +132,8 @@ img {
     fill: currentColor;
 }
 
-.address-list-item:hover, 
-.address-list-item:focus {
+.address-link-header:hover, 
+.address-link-header:focus {
     color: var(--accent-color);    
 }
 .nav-link-active {
@@ -318,7 +318,8 @@ margin-right: 30px;
     fill: currentColor;
 }
 
-.social-link:hover {
+.social-link:hover,
+.social-link:focus {
     background-color: #2196F3;
     color: #FFFFFF;
 }
@@ -366,7 +367,8 @@ margin-bottom: 50px;
     margin-left: 30px;
     }
 
-    .clients-link:hover {
+    .clients-link:hover,
+    .clients-link:focus {
         border: #2196F3 1px solid;
         color: #2196F3;
     }
@@ -449,7 +451,8 @@ padding-top: 12px;
 .social-icon-footer {
     fill: currentColor;
 }
-.social-link-footer:hover {
+.social-link-footer:hover,
+.social-link-footer:focus {
     background-color: #2196F3;
 }
 
@@ -503,8 +506,11 @@ padding-top: 12px;
     margin-bottom: 4px;
 }
 
-.portfolio-list-point:hover,
-.portfolio-list-point:focus {
+.portfolio-link {
+    display: block;
+}
+.portfolio-link:hover,
+.portfolio-link:focus {
 box-shadow: 1px 4px 6px 0px #00000029,
 0px 4px 4px 0px #0000000F,
 0px 1px 1px 0px #0000001F;
